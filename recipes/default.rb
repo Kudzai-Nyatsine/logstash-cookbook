@@ -7,6 +7,15 @@ execute 'Get java repository' do
 	command 'sudo add-apt-repository -y ppa:webupd8team/java'
 end
 
+execute 'update' do
+	command "sudo apt update"
+end
+
+execute 'update' do
+	command "sudo apt update"
+end
+
+
 package "language-pack-en"
 
 apt_update
@@ -21,7 +30,14 @@ execute "config java" do
  sudo debconf-set-selections"
 end
 
-package 'oracle-java8-installer'
+execute "install java" do
+	command "sudo dpkg -i oracle-java8-installer_8u51+8u51arm-1-webupd8-0_all.deb"
+end
+
+# package "oracle-java8-installer" do
+#   action :install
+#   notifies :run, 'execute[apt-update]', :before
+# end
 
 execute 'Get key' do
 	command  'wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -'
