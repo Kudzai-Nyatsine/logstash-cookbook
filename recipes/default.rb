@@ -30,14 +30,7 @@ execute "config java" do
  sudo debconf-set-selections"
 end
 
-execute "install java" do
-	command "sudo dpkg -i oracle-java8-installer_8u51+8u51arm-1-webupd8-0_all.deb"
-end
-
-# package "oracle-java8-installer" do
-#   action :install
-#   notifies :run, 'execute[apt-update]', :before
-# end
+package "oracle-java8-installer"
 
 execute 'Get key' do
 	command  'wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -'
