@@ -33,8 +33,10 @@ To check if the cookbook is correctly configured, run the below tests;
 
 1. Run
 	`chefspec`
+
  to test your your resources and recipes.
 
 2. Run
 	`kitchen test`
+	
 in the bash command to test if the recipes were installed and configured successfully.
