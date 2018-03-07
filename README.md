@@ -11,9 +11,9 @@ The cookbook is also for installing logstash on the virtual machine.
 
 In order to run the cookbook, you need to ensure that you have
 
-* [virtual box](https://www.virtualbox.org/wiki/Downloads)
+* [Virtual box](https://www.virtualbox.org/wiki/Downloads)
 
-* [vagrant](https://www.vagrantup.com/downloads.html)
+* [Vagrant](https://www.vagrantup.com/downloads.html)
 
 * [Chef Development Kit 2.4.17](https://downloads.chef.io/chefdk)
 
@@ -31,7 +31,7 @@ Vagrant comes with support out of the box for VirtualBox, a free, cross-platform
 
 * 	``Java`` 
 
-* 	``logstash``.
+* 	``Logstash``.
 
 ## Test Environment
 
