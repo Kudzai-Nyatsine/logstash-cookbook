@@ -11,9 +11,9 @@ The cookbook is also for installing logstash on the virtual machine.
 
 In order to run the cookbook, you need to ensure that you have
 
-[virtual box](https://www.virtualbox.org/wiki/Downloads)
+* [virtual box](https://www.virtualbox.org/wiki/Downloads)
 
-[vagrant](https://www.vagrantup.com/downloads.html)
+* [vagrant](https://www.vagrantup.com/downloads.html)
 
 installed.
 
@@ -32,11 +32,13 @@ Vagrant comes with support out of the box for VirtualBox, a free, cross-platform
 To check if the cookbook is correctly configured, run the below tests; 
 
 1. Run
-	`chefspec`
+
+	``chefspec``
 
  to test your your resources and recipes.
 
 2. Run
-	`kitchen test`
-	
+
+	``kitchen test``
+
 in the bash command to test if the recipes were installed and configured successfully.
