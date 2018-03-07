@@ -25,7 +25,11 @@ Vagrant comes with support out of the box for VirtualBox, a free, cross-platform
 
 1. Once the logstash cookbook is installed, open it in the text editor and install the relevant recipes in the recipes folder `recipes > default.rb`.
 
-2. In recipes folder, Install `Java` and `logstash`.
+2. In recipes folder, Install
+
+* 	``Java`` 
+
+* 	``logstash``.
 
 ## Test Environment
 
