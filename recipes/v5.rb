@@ -30,7 +30,7 @@ execute 'Get key' do
 end
 
 execute 'Get logstash source' do
-	command 'echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list'
+	command 'echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list'
 end
 
 execute 'Update sources' do
