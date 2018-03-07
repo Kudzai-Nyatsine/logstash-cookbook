@@ -5,6 +5,8 @@
 This cookbook is primarily for configuration and installation of recipe dependencies for the ELK project along with
 other two cookbooks, Elastic search and Kiban cookbooks.
 
+The cookbook is also for installing logstash on the virtual machine.
+
 ## Requirements
 
 In order to run the cookbook, you need to ensure that you have bash command and vagrant installed.
