@@ -15,6 +15,8 @@ In order to run the cookbook, you need to ensure that you have
 
 * [vagrant](https://www.vagrantup.com/downloads.html)
 
+* [Chef Development Kit 2.4.17](https://downloads.chef.io/chefdk)
+
 installed.
 
 Vagrant enables users to create and configure lightweight, reproducible, and portable development environments.
