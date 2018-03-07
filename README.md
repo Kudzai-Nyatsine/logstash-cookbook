@@ -9,7 +9,7 @@ The cookbook is also for installing logstash on the virtual machine.
 
 ## Requirements
 
-In order to run the cookbook, you need to ensure that you have bash command and vagrant installed.
+In order to run the cookbook, you need to ensure that you have bash command and [vagrant](https://www.vagrantup.com/downloads.html) installed.
 
 ## Installation
 
